@@ -1,0 +1,5 @@
+{
+  "name": "Discover Slovakia",
+  "description": "Oficiálny sprievodca krásami Slovenska. Objavte top destinácie, skryté zákutia a autentické zážitky.",
+  "requestFramePermissions": ["camera", "microphone", "geolocation"]
+}

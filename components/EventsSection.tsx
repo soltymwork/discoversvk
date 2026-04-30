@@ -7,6 +7,26 @@ import { ArrowUpRight } from 'lucide-react';
 export default function EventsSection() {
   return (
     <section className="py-16 md:py-24 bg-[#FAF9F6] relative overflow-hidden">
+      {/* Tatry mountain silhouette — background decoration */}
+      <svg
+        aria-hidden="true"
+        className="absolute top-0 left-0 w-full pointer-events-none z-0 rotate-180"
+        viewBox="0 0 1440 220"
+        preserveAspectRatio="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M0,220 L0,140 L60,80 L130,115 L200,45 L280,85 L360,15 L440,68 L520,38 L600,92 L670,22 L750,72 L830,44 L900,90 L970,20 L1050,65 L1120,40 L1200,80 L1280,50 L1360,88 L1440,60 L1440,220 Z"
+          fill="#ee1c25"
+          opacity="0.04"
+        />
+        <path
+          d="M0,220 L0,175 L100,140 L180,158 L260,118 L350,145 L440,102 L530,135 L620,115 L700,152 L780,122 L860,145 L950,105 L1040,138 L1130,125 L1220,148 L1310,130 L1440,155 L1440,220 Z"
+          fill="#0b4ea2"
+          opacity="0.04"
+        />
+      </svg>
+
       <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
         <div className="flex gap-6 overflow-x-auto snap-x scrollbar-hide md:grid md:grid-cols-2 pb-8 md:pb-0" style={{ scrollbarWidth: 'none' }}>
           

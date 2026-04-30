@@ -19,26 +19,8 @@ export default function Hero() {
         <div className="absolute inset-0 bg-gradient-to-t from-[#FAF9F6] via-black/20 to-[#FAF9F6]/30" />
       </div>
 
-      {/* Mountain silhouette decoration — Slovak Tatras inspired */}
-      <svg
-        aria-hidden="true"
-        className="absolute bottom-0 left-0 w-full z-10 opacity-10 pointer-events-none"
-        viewBox="0 0 1440 180"
-        preserveAspectRatio="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M0,180 L0,120 L80,60 L140,90 L200,30 L270,80 L340,10 L420,70 L500,40 L570,90 L640,20 L720,75 L800,45 L870,85 L940,15 L1010,65 L1080,35 L1150,80 L1220,50 L1300,90 L1370,55 L1440,80 L1440,180 Z"
-          fill="#0b4ea2"
-        />
-        <path
-          d="M0,180 L0,150 L100,110 L180,130 L260,90 L350,120 L440,80 L530,115 L620,95 L700,130 L780,100 L860,125 L950,85 L1040,120 L1130,105 L1220,130 L1310,110 L1440,135 L1440,180 Z"
-          fill="#1a1a2e"
-          opacity="0.6"
-        />
-      </svg>
 
-      <div className="relative z-10 text-center w-full max-w-7xl mx-auto px-6 h-full flex flex-col justify-center mt-12">
+<div className="relative z-10 text-center w-full max-w-7xl mx-auto px-6 h-full flex flex-col justify-center mt-12">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}

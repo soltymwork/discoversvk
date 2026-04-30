@@ -55,6 +55,26 @@ export default function TopsSection() {
 
   return (
     <section className="py-16 md:py-24 bg-[#FAF9F6] relative overflow-hidden">
+      {/* Tatry mountain silhouette — background decoration */}
+      <svg
+        aria-hidden="true"
+        className="absolute bottom-0 left-0 w-full pointer-events-none z-0"
+        viewBox="0 0 1440 220"
+        preserveAspectRatio="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M0,220 L0,140 L60,80 L120,110 L190,40 L260,90 L330,20 L410,75 L490,50 L560,95 L630,25 L710,70 L790,42 L860,88 L930,18 L1000,62 L1070,38 L1150,82 L1230,48 L1310,85 L1380,55 L1440,75 L1440,220 Z"
+          fill="#0b4ea2"
+          opacity="0.06"
+        />
+        <path
+          d="M0,220 L0,170 L90,130 L170,150 L250,105 L340,138 L430,95 L520,128 L610,108 L690,145 L770,115 L850,138 L940,98 L1030,132 L1120,118 L1210,142 L1300,122 L1440,148 L1440,220 Z"
+          fill="#0b4ea2"
+          opacity="0.04"
+        />
+      </svg>
+
       <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
         <div className="flex justify-between items-center mb-12">
           <div className="flex items-center gap-6">

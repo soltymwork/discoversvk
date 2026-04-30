@@ -47,7 +47,7 @@ export default function EditorialSection({ title, subtitle, icon, cards, seeAllH
             {subtitle}
           </span>
           <div className="flex items-center gap-4">
-            <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl font-medium tracking-tight text-gray-900 leading-tight">
+            <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight text-gray-900 leading-tight">
               {title}
             </h2>
             {icon && <div className="text-red-500 mb-2">{icon}</div>}

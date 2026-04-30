@@ -16,8 +16,14 @@ export default function Hero() {
           className="object-cover opacity-90"
           priority
         />
-        {/* Subtle gradient to ensure text readability if needed */}
-        <div className="absolute inset-0 bg-gradient-to-t from-[#FAF9F6] via-transparent to-[#FAF9F6]/30" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#FAF9F6] via-black/20 to-[#FAF9F6]/30" />
+      </div>
+
+      {/* Slovak tricolor accent — three vertical stripes bottom-left */}
+      <div className="absolute bottom-0 left-0 z-10 flex gap-[3px] h-32 md:h-48 opacity-70" aria-hidden="true">
+        <div className="w-[5px] md:w-[7px] bg-white" />
+        <div className="w-[5px] md:w-[7px] bg-[#0b4ea2]" />
+        <div className="w-[5px] md:w-[7px] bg-[#ee1c25]" />
       </div>
 
       <div className="relative z-10 text-center w-full max-w-7xl mx-auto px-6 h-full flex flex-col justify-center mt-12">
@@ -30,9 +36,9 @@ export default function Hero() {
             Discover Slovakia
           </span>
           <h1 className="font-serif text-[12vw] md:text-[8vw] leading-[0.85]">
-            <span className="text-white drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)]">Objavte</span><br />
-            <span className="italic font-light text-[#0b4ea2] mr-[0.5em] md:mr-4 tracking-tighter drop-shadow-sm">krásy</span>
-            <span className="text-[#ee1c25] drop-shadow-sm">Slovenska</span>
+            <span className="text-white drop-shadow-[0_4px_20px_rgba(0,0,0,0.95)]">Objavte</span><br />
+            <span className="italic font-light text-[#0b4ea2] mr-[0.5em] md:mr-4 tracking-tighter drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)]">krásy</span>
+            <span className="text-[#ee1c25] drop-shadow-[0_2px_8px_rgba(0,0,0,0.4)]">Slovenska</span>
           </h1>
         </motion.div>
 

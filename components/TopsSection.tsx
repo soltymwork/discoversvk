@@ -89,7 +89,7 @@ export default function TopsSection() {
         >
           {topCards.map(card => (
             <div key={card.id} className="min-w-[85vw] md:min-w-[360px] lg:min-w-[400px] flex-1 flex flex-col group snap-center">
-              <div className="relative w-full aspect-[4/3] overflow-hidden mb-5">
+              <div className="relative w-full aspect-[4/3] overflow-hidden mb-5 rounded-2xl">
                 <Image
                   src={card.image}
                   alt={card.title}
